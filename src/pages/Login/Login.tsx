@@ -23,6 +23,7 @@ export default function Login() {
                   name='email'
                   className='p-3 w-full outline-none border border-gray-300 focus:border-gray-500 rounded-sm focus:shadow-md'
                   placeholder='Email'
+                  autoComplete='on'
                 />
                 <div className='mt-1 text-red-600 min-h-[1-rem] text-sm'></div>
               </div>
@@ -32,6 +33,7 @@ export default function Login() {
                   name='password'
                   className='p-3 w-full outline-none border border-gray-300 focus:border-gray-500 rounded-sm focus:shadow-md'
                   placeholder='Password'
+                  autoComplete='on'
                 />
                 <div className='mt-1 text-red-600 min-h-[1-rem] text-sm'></div>
               </div>
